@@ -5,8 +5,4 @@
   "author": "Florian",
   "version": "0.0.1",
   "minimumCoreVersion": "0.7.5"
-  
-  "scripts": [
-  "scripts/pool.js"
-]
 }
