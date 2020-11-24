@@ -1,23 +1,16 @@
-class Application {
-
-  constructor(options={}) {
-
-    /**
-
-     * The options provided to this application upon initialization
-
-     * @type {Object}
-
-     */
-
-    this.options = mergeObject(this.constructor.defaultOptions, options, {
-
-      insertKeys: true,
-
-      insertValues: true,
-
-      overwrite: true,
-
-      inplace: false
-
-    });
+export default class MessageWindow extends Application {
+    static get defaultOptions() {
+        return {
+            ...super.defaultOptions,
+            id : "messagewindow",
+            template : "modules/LPTips/templates/messagebox.html",
+            resizable : false,
+            height : "auto",
+            width : 400,
+            minimizable : true,
+            title : "LPTips Message",
+            renderContext: "Does this work?"
+        }
+    }
+}
+new MessageWindow().render(true);
