@@ -1,3 +1,5 @@
+const dataArray = ["Hello","Hi","Wassup"];
+
 export default class MessageWindow extends Application {
     static get defaultOptions() {
         return {
@@ -12,5 +14,10 @@ export default class MessageWindow extends Application {
             renderContext: "Does this work?"
         }
     }
+
+  getData() {
+    return {
+      messages: this.object
+  }
 }
-new MessageWindow().render(true);
+new MessageWindow(dataArray).render(true);
