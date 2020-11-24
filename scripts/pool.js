@@ -5,7 +5,7 @@ export default class MessageWindow extends Application {
         return {
             ...super.defaultOptions,
             id : "messagewindow",
-            template : "modules/LPTips/templates/messagebox.html",
+            template : "messagebox.html",
             resizable : false,
             height : "auto",
             width : 400,
