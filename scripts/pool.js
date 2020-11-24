@@ -5,7 +5,7 @@ export default class MessageWindow extends Application {
         return {
             ...super.defaultOptions,
             id : "messagewindow",
-            template : "messagebox.html",
+            template : "modules/tension-pool/templates/tensionpool.html",
             resizable : false,
             height : "auto",
             width : 400,
