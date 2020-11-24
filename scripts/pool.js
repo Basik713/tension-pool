@@ -20,4 +20,5 @@ export default class MessageWindow extends Application {
       messages: this.object
   }
 }
+}
 new MessageWindow(dataArray).render(true);
