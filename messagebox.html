@@ -1,2 +1,4 @@
 <h2>Did you know?</h2><br>
-<p> {{ renderContext }}</p>
+{{#each messages}}
+<p> {{this}}</p>
+{{/each}}
