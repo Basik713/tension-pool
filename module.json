@@ -7,4 +7,7 @@
   "minimumCoreVersion": "0.7.5",
   "url": "https://github.com/Basik713/tension-pool",
   "manifest": "https://raw.githubusercontent.com/Basik713/tension-pool/main/module.json"
+  "scripts": [
+    "scripts/pool.js"
+  ]
 }
