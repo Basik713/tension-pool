@@ -12,3 +12,5 @@ class poolWindow extends Application {
         }
      }
 }
+
+new poolWindow().render(true);
