@@ -1,0 +1,53 @@
+#rules {
+    width: 16px;
+    height: 16px;
+    border-radius: 64px;
+    font-size: 10px;
+}
+
+#pyramid {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#buttons {
+    text-align: center;
+    display: flex;
+    margin-top: -10px;
+}
+
+#rollA {
+    width: 53px;
+    height: 42px;
+    border-radius: 6px;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+#rollB {
+    width: 53px;
+    height: 42px;
+    border-radius: 6px;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+#rollC {
+    width: 70px;
+    height: 21px;
+    border-radius: 6px;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+#rollD {
+    width: 70px;
+    height: 21px;
+    border-radius: 6px;
+    line-height: 16px;
+    font-size: 11px;
+    position: absolute;
+    margin-left: 111px;
+    margin-top: 22px; 
+}
