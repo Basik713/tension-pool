@@ -8,5 +8,6 @@
   "url": "https://github.com/Basik713/tension-pyramid",
   "manifest": "https://raw.githubusercontent.com/Basik713/tension-pyramid/main/module.json",
   "scripts": ["scripts/pyramid.js"],
-  "styles":["styles/styles.css"]
+  "styles":["styles/styles.css"],
+  "download": "https://github.com/Basik713/tension-pyramid/raw/master/package/tension-pyramid-v0.0.1.zip"
 }
