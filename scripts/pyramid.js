@@ -3,7 +3,7 @@ class pyramidWindow extends Application {
         return {
               ...super.defaultOptions,
               id : "pyramidwindow",
-              template : "modules/tension-pool/templates/tensionpool.html",
+              template : "./templates/tensionpool.html",
               resizable : false,
               height : "auto",
               width : 200,
