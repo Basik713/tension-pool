@@ -9,5 +9,5 @@
   "manifest": "https://raw.githubusercontent.com/Basik713/tension-pyramid/main/module.json",
   "scripts": ["scripts/pyramid.js"],
   "styles":["styles/styles.css"],
-  "download": "https://github.com/Basik713/tension-pyramid/raw/master/package/tension-pyramid-v0.0.1.zip"
+  "download": "https://github.com/Basik713/tension-pyramid/raw/main/package/tension-pyramid-v0.0.1.zip"
 }
