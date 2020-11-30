@@ -3,7 +3,7 @@ class pyramidWindow extends Application {
         return {
               ...super.defaultOptions,
               id : "pyramidwindow",
-              template : "templates/tensionpool.html",
+              template : "modules/tension-pyramid/templates/tensionpyramid_template.html",
               resizable : false,
               height : "auto",
               width : 200,
@@ -91,7 +91,7 @@ function rules() {
               return {
                     ...super.defaultOptions,
                     id : "ruleswindow",
-                    template : "modules/tension-pool/templates/rules.html",
+                    template : "modules/tension-pyramid/templates/rules_template.html",
                     resizable : true,
                     height : "auto",
                     width : 600,
